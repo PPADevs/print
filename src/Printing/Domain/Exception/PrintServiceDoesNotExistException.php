@@ -1,7 +1,7 @@
 <?php
 namespace Printing\Domain\Exception;
 
-use Dadeky\Ddd\Domain\Exception\DomainException;
+use ppadevs\Ddd\Domain\Exception\DomainException;
 
 class PrintServiceDoesNotExistException extends DomainException
 {

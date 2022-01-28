@@ -1,13 +1,13 @@
 {
-  "name": "PPADevs/print",
+  "name": "ppadevs/print",
   "description": "Library for printing stuff.",
   "authors": [
     {
-      "name": "PPADevs",
+      "name": "ppadevs",
       "role": "Developers"
     }
   ],
-  "homepage": "https://github.com/PPADevs/print",
+  "homepage": "https://github.com/ppadevs/print",
   "license": "BSD-2-Clause",
   "keywords": [
     "print services"
@@ -18,16 +18,11 @@
   "require": {
     "php": ">=7.4",
     "symfony/filesystem": ">=4.0.*",
-    "PPADevs/ddd": "^2.0"
+    "ppadevs/ddd": "^2.2"
   },
   "autoload": {
     "psr-4": {
       "Printing\\": "src/Printing"
-    }
-  },
-  "autoload-dev": {
-    "psr-4": {
-      "Printing\\Tests\\": "tests/Printing/Tests"
     }
   }
 }
